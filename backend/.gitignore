@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Venv
+venv/
+.venv/
+env/
+ENV/
+
+# Dependencies
+pip-wheel-metadata/
+pip-log.txt
+
+# Build
+build/
+dist/
+
+# Tests
+.pytest_cache/
+coverage/
+
+# MyPy
+.mypy_cache/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Databases/storage
+*.db
+*.sqlite3
+instance/
+uploads/
+media/
+staticfiles/
