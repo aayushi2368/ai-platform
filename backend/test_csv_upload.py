@@ -29,7 +29,7 @@ def test_csv_import():
         print("\n2. Attempting import...")
         table_name, row_count, columns = import_csv_to_sqltable_via_copy(csv_bytes)
         
-        print("\n✅ SUCCESS!")
+        print("\n SUCCESS!")
         print(f"   Table Name: {table_name}")
         print(f"   Rows Imported: {row_count}")
         print(f"   Columns: {columns}")
@@ -51,7 +51,7 @@ def test_csv_import():
         print("=" * 60)
         
     except Exception as e:
-        print("\n❌ ERROR!")
+        print("\n ERROR!")
         print(f"   {type(e).__name__}: {str(e)}")
         import traceback
         print("\nFull Traceback:")
